@@ -1,4 +1,4 @@
 package nyc.bbah.mydaggerjava;
 
-public class MovieRespository {
+public class MovieListViewModel {
 }
