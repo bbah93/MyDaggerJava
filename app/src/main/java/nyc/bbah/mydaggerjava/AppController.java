@@ -1,4 +1,4 @@
-package nyc.bbah.mydaggerjava.data.module;
+package nyc.bbah.mydaggerjava;
 
 import android.app.Activity;
 import android.app.Application;
@@ -23,9 +23,9 @@ public class AppController extends Application implements HasActivityInjector {
     @Override
     public void onCreate(){
         super.onCreate();
-//        DaggerAppComponent.builder()
-//                .application(this)
-//                .build()
-//                .inject(this);
+        DaggerAppComponent.builder()
+                .application(this)
+                .build()
+                .inject(this);
     }
 }

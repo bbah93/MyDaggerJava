@@ -7,6 +7,7 @@ import javax.inject.Singleton;
 import dagger.BindsInstance;
 import dagger.Component;
 import dagger.android.support.AndroidSupportInjectionModule;
+import nyc.bbah.mydaggerjava.AppController;
 
 /*
  * We mark this interface with the @Component annotation.
