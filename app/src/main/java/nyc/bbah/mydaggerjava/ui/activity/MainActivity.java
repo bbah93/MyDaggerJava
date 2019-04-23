@@ -1,4 +1,4 @@
-package nyc.bbah.mydaggerjava;
+package nyc.bbah.mydaggerjava.ui.activity;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.support.v7.app.AppCompatActivity;
@@ -13,8 +13,9 @@ import java.util.List;
 import javax.inject.Inject;
 
 import dagger.android.AndroidInjection;
-import nyc.bbah.mydaggerjava.data.MovieListViewModel;
-import nyc.bbah.mydaggerjava.data.ViewModelFactory;
+import nyc.bbah.mydaggerjava.R;
+import nyc.bbah.mydaggerjava.ui.viewmodel.MovieListViewModel;
+import nyc.bbah.mydaggerjava.factory.ViewModelFactory;
 import nyc.bbah.mydaggerjava.db.MovieEntity;
 
 public class MainActivity extends AppCompatActivity {

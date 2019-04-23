@@ -10,8 +10,8 @@ import javax.inject.Singleton;
 import io.reactivex.Flowable;
 import nyc.bbah.mydaggerjava.db.MovieDao;
 import nyc.bbah.mydaggerjava.db.MovieEntity;
-import nyc.bbah.mydaggerjava.network.MovieApiResponse;
-import nyc.bbah.mydaggerjava.network.MovieApiService;
+import nyc.bbah.mydaggerjava.data.remote.model.MovieApiResponse;
+import nyc.bbah.mydaggerjava.data.remote.api.MovieApiService;
 
 @Singleton
 public class MovieRepository {

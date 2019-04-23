@@ -1,7 +1,7 @@
-package nyc.bbah.mydaggerjava.data.module;
+package nyc.bbah.mydaggerjava.di.module;
 
 import dagger.android.ContributesAndroidInjector;
-import nyc.bbah.mydaggerjava.MainActivity;
+import nyc.bbah.mydaggerjava.ui.activity.MainActivity;
 
 public abstract class ActivityModule {
 

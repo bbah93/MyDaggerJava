@@ -1,4 +1,4 @@
-package nyc.bbah.mydaggerjava.data.module;
+package nyc.bbah.mydaggerjava.di.module;
 
 import android.app.Application;
 

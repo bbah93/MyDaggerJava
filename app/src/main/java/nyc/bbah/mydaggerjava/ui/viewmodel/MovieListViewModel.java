@@ -1,4 +1,4 @@
-package nyc.bbah.mydaggerjava.data;
+package nyc.bbah.mydaggerjava.ui.viewmodel;
 
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
@@ -10,7 +10,7 @@ import javax.inject.Inject;
 import nyc.bbah.mydaggerjava.data.MovieRepository;
 import nyc.bbah.mydaggerjava.db.MovieDao;
 import nyc.bbah.mydaggerjava.db.MovieEntity;
-import nyc.bbah.mydaggerjava.network.MovieApiService;
+import nyc.bbah.mydaggerjava.data.remote.api.MovieApiService;
 
 public class MovieListViewModel extends ViewModel {
 

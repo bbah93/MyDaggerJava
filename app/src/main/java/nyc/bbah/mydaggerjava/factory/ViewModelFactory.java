@@ -1,4 +1,4 @@
-package nyc.bbah.mydaggerjava.data;
+package nyc.bbah.mydaggerjava.factory;
 
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;

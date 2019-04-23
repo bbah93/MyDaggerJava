@@ -1,4 +1,4 @@
-package nyc.bbah.mydaggerjava.network;
+package nyc.bbah.mydaggerjava.data.remote.model;
 
 import com.google.gson.annotations.SerializedName;
 

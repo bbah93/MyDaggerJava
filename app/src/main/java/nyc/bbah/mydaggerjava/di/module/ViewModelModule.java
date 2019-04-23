@@ -1,4 +1,4 @@
-package nyc.bbah.mydaggerjava.data.module;
+package nyc.bbah.mydaggerjava.di.module;
 
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
@@ -6,9 +6,9 @@ import android.arch.lifecycle.ViewModelProvider;
 import dagger.Binds;
 import dagger.Module;
 import dagger.multibindings.IntoMap;
-import nyc.bbah.mydaggerjava.data.ViewModelFactory;
-import nyc.bbah.mydaggerjava.data.ViewModelKey;
-import nyc.bbah.mydaggerjava.data.MovieListViewModel;
+import nyc.bbah.mydaggerjava.factory.ViewModelFactory;
+import nyc.bbah.mydaggerjava.di.ViewModelKey;
+import nyc.bbah.mydaggerjava.ui.viewmodel.MovieListViewModel;
 
 @Module
 public abstract class ViewModelModule {
