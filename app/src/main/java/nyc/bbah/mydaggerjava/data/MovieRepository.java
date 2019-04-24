@@ -8,8 +8,8 @@ import java.util.Observable;
 import javax.inject.Singleton;
 
 import io.reactivex.Flowable;
-import nyc.bbah.mydaggerjava.db.MovieDao;
-import nyc.bbah.mydaggerjava.db.MovieEntity;
+import nyc.bbah.mydaggerjava.data.local.dao.MovieDao;
+import nyc.bbah.mydaggerjava.data.local.entity.MovieEntity;
 import nyc.bbah.mydaggerjava.data.remote.model.MovieApiResponse;
 import nyc.bbah.mydaggerjava.data.remote.api.MovieApiService;
 

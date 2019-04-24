@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.ArrayList;
 import java.util.List;
 
-import nyc.bbah.mydaggerjava.db.MovieEntity;
+import nyc.bbah.mydaggerjava.data.local.entity.MovieEntity;
 
 public class MovieApiResponse {
 

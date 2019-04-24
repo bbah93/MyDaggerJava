@@ -16,7 +16,7 @@ import dagger.android.AndroidInjection;
 import nyc.bbah.mydaggerjava.R;
 import nyc.bbah.mydaggerjava.ui.viewmodel.MovieListViewModel;
 import nyc.bbah.mydaggerjava.factory.ViewModelFactory;
-import nyc.bbah.mydaggerjava.db.MovieEntity;
+import nyc.bbah.mydaggerjava.data.local.entity.MovieEntity;
 
 public class MainActivity extends AppCompatActivity {
 

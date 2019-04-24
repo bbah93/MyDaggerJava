@@ -1,4 +1,4 @@
-package nyc.bbah.mydaggerjava.db;
+package nyc.bbah.mydaggerjava.data.local.entity;
 
 import android.arch.persistence.room.Entity;
 import android.os.Parcel;

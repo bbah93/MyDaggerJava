@@ -1,10 +1,12 @@
-package nyc.bbah.mydaggerjava.db;
+package nyc.bbah.mydaggerjava.data.local.dao;
 
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.OnConflictStrategy;
 import android.arch.persistence.room.Query;
 
 import java.util.List;
+
+import nyc.bbah.mydaggerjava.data.local.entity.MovieEntity;
 
 public interface MovieDao {
 

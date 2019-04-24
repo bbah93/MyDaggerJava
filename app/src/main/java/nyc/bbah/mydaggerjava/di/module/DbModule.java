@@ -7,8 +7,8 @@ import android.support.annotation.NonNull;
 import javax.inject.Singleton;
 
 import dagger.Provides;
-import nyc.bbah.mydaggerjava.db.AppDatabase;
-import nyc.bbah.mydaggerjava.db.MovieDao;
+import nyc.bbah.mydaggerjava.data.local.AppDatabase;
+import nyc.bbah.mydaggerjava.data.local.dao.MovieDao;
 
 public class DbModule {
     /*
