@@ -1,4 +1,4 @@
-package nyc.bbah.mydaggerjava.di.module;
+package nyc.bbah.mydaggerjava.di.component;
 
 import android.app.Application;
 
@@ -8,6 +8,10 @@ import dagger.BindsInstance;
 import dagger.Component;
 import dagger.android.support.AndroidSupportInjectionModule;
 import nyc.bbah.mydaggerjava.AppController;
+import nyc.bbah.mydaggerjava.di.module.ActivityModule;
+import nyc.bbah.mydaggerjava.di.module.ApiModule;
+import nyc.bbah.mydaggerjava.di.module.DbModule;
+import nyc.bbah.mydaggerjava.di.module.ViewModelModule;
 
 /*
  * We mark this interface with the @Component annotation.

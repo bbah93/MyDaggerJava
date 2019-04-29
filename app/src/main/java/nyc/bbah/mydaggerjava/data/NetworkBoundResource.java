@@ -19,6 +19,7 @@ public abstract class NetworkBoundResource<ResultType, RequestType> {
         Observable<Resource<ResultType>> source;
 
         if(shouldFetch()){
+            //make network call on io thread, save the result
             source = createCall()
                     .subscribeOn(Schedulers.io())
                     .doOnNext(apiResponse -> saveCallResult(processResponse(apiResponse)))

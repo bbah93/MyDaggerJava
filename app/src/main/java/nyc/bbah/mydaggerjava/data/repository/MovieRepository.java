@@ -1,13 +1,15 @@
-package nyc.bbah.mydaggerjava.data;
+package nyc.bbah.mydaggerjava.data.repository;
 
 import android.support.annotation.NonNull;
 
 import java.util.List;
-import java.util.Observable;
 
 import javax.inject.Singleton;
 
 import io.reactivex.Flowable;
+import io.reactivex.Observable;
+import nyc.bbah.mydaggerjava.data.NetworkBoundResource;
+import nyc.bbah.mydaggerjava.data.Resource;
 import nyc.bbah.mydaggerjava.data.local.dao.MovieDao;
 import nyc.bbah.mydaggerjava.data.local.entity.MovieEntity;
 import nyc.bbah.mydaggerjava.data.remote.model.MovieApiResponse;
