@@ -6,10 +6,12 @@ import android.support.annotation.NonNull;
 
 import javax.inject.Singleton;
 
+import dagger.Module;
 import dagger.Provides;
 import nyc.bbah.mydaggerjava.data.local.AppDatabase;
 import nyc.bbah.mydaggerjava.data.local.dao.MovieDao;
 
+@Module
 public class DbModule {
     /*
      * The method returns the Database object

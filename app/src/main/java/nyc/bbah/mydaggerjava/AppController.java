@@ -9,6 +9,7 @@ import dagger.android.AndroidInjector;
 import dagger.android.DaggerApplication_MembersInjector;
 import dagger.android.DispatchingAndroidInjector;
 import dagger.android.HasActivityInjector;
+import nyc.bbah.mydaggerjava.di.component.DaggerAppComponent;
 
 public class AppController extends Application implements HasActivityInjector {
 

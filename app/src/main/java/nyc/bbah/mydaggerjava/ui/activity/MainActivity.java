@@ -1,6 +1,7 @@
 package nyc.bbah.mydaggerjava.ui.activity;
 
 import android.arch.lifecycle.ViewModelProviders;
+import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -14,6 +15,8 @@ import javax.inject.Inject;
 
 import dagger.android.AndroidInjection;
 import nyc.bbah.mydaggerjava.R;
+import nyc.bbah.mydaggerjava.databinding.MainActivityBinding;
+import nyc.bbah.mydaggerjava.ui.adapter.MoviesListAdapter;
 import nyc.bbah.mydaggerjava.ui.viewmodel.MovieListViewModel;
 import nyc.bbah.mydaggerjava.factory.ViewModelFactory;
 import nyc.bbah.mydaggerjava.data.local.entity.MovieEntity;

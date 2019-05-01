@@ -7,6 +7,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import nyc.bbah.mydaggerjava.data.Resource;
 import nyc.bbah.mydaggerjava.data.repository.MovieRepository;
 import nyc.bbah.mydaggerjava.data.local.dao.MovieDao;
 import nyc.bbah.mydaggerjava.data.local.entity.MovieEntity;

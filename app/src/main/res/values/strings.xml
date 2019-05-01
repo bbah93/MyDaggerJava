@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyDaggerJava</string>
+    <string name="no_movies_in_the_list">No movies in the list</string>
 </resources>
